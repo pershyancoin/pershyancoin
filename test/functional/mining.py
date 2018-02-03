@@ -17,7 +17,7 @@ from test_framework.mininode import CBlock
 from test_framework.test_framework import BitcoinTestFramework
 from test_framework.util import assert_equal, assert_raises_rpc_error
 
-def b2x(b):
+def psc(b):
     return b2a_hex(b).decode('ascii')
 
 def assert_template(node, block, expect, rehash=True):
