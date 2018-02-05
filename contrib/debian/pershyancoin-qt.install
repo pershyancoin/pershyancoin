@@ -1,6 +1,0 @@
-usr/local/bin/pershyancoin-qt usr/bin
-share/pixmaps/pershyancoin32.xpm usr/share/pixmaps
-share/pixmaps/pershyancoin16.xpm usr/share/pixmaps
-share/pixmaps/pershyancoin128.png usr/share/pixmaps
-debian/pershyancoin-qt.desktop usr/share/applications
-debian/pershyancoin-qt.protocol usr/share/kde4/services/
