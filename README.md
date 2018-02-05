@@ -1,7 +1,7 @@
 Pershyancoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/PERSHYANCOIN/PERSHYANCOIN.svg?branch=master)](https://travis-ci.org/PERSHYANCOIN/PERSHYANCOIN)
+[![Build Status](https://travis-ci.org/pershyancoin/pershyancoin.svg?branch=master)](https://travis-ci.org/pershyancoin/pershyancoin)
 
 https://pershyancoin.com
 
