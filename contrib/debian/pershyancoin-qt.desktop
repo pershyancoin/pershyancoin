@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Pershyancoin Core
+Comment=Connect to the Pershyancoin P2P Network
+Comment[de]=Verbinde mit dem Pershyancoin peer-to-peer Netzwerk
+Comment[fr]=Pershyancoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Pershyancoin, eşten eşe kriptografik sanal para birimi
+Exec=pershyancoin-qt %u
+Terminal=false
+Type=Application
+Icon=pershyancoin128
+MimeType=x-scheme-handler/pershyancoin;
+Categories=Office;Finance;
+StartupWMClass=Pershyancoin-qt
