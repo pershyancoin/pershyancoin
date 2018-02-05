@@ -3,7 +3,7 @@ Pershyancoin Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/pershyancoin/pershyancoin.svg?branch=master)](https://travis-ci.org/pershyancoin/pershyancoin)
 
-https://pershyancoincore.org
+https://pershyancoin.com
 
 What is Pershyancoin?
 ----------------
@@ -16,7 +16,7 @@ software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
 the Pershyancoin Core software, see https://pershyancoin.org/en/download, or read the
-[original whitepaper](https://pershyancoincore.org/pershyancoin.pdf).
+[original whitepaper](https://pershyancoin.com/pershyancoin.pdf).
 
 License
 -------

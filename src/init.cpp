@@ -510,7 +510,7 @@ std::string HelpMessage(HelpMessageMode mode)
 std::string LicenseInfo()
 {
     const std::string URL_SOURCE_CODE = "<https://github.com/pershyancoin/pershyancoin>";
-    const std::string URL_WEBSITE = "<https://pershyancoincore.org>";
+    const std::string URL_WEBSITE = "<https://pershyancoin.com>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2009, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +

@@ -5,7 +5,7 @@ Setup
 ---------------------
 Pershyancoin Core is the original Pershyancoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Pershyancoin transactions (which is currently more than 100 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Pershyancoin Core, visit [pershyancoincore.org](https://pershyancoincore.org/en/releases/).
+To download Pershyancoin Core, visit [pershyancoin.com](https://pershyancoin.com/en/releases/).
 
 Running
 ---------------------

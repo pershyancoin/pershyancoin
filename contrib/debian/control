@@ -26,7 +26,7 @@ Build-Depends: debhelper,
  python,
  libzmq3-dev
 Standards-Version: 3.9.2
-Homepage: https://pershyancoincore.org/
+Homepage: https://pershyancoin.com/
 Vcs-Git: git://github.com/pershyancoin/pershyancoin.git
 Vcs-Browser: https://github.com/pershyancoin/pershyancoin
 
