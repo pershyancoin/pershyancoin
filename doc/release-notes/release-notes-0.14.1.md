@@ -86,7 +86,7 @@ the code changes and accompanying discussion, both the pull request and
 git merge commit are mentioned.
 
 ### RPC and other APIs
-- #10084 `142fbb2` Rename first named arg of createrawtransaction (MarcoFalke)
+- #10084 `142fbb2` Rename first named arg of createrawtransaction (Fazlkhoda)
 - #10139 `f15268d` Remove auth cookie on shutdown (practicalswift)
 - #10146 `2fea10a` Better error handling for submitblock (rawodb, gmaxwell)
 - #10144 `d947afc` Prioritisetransaction wasn't always updating ancestor fee (sdaftuar)
@@ -131,7 +131,7 @@ Thanks to everyone who directly contributed to this release:
 - Gregory Maxwell
 - James Evans
 - John Newbery
-- MarcoFalke
+- Fazlkhoda
 - Matt Corallo
 - Pieter Wuille
 - practicalswift

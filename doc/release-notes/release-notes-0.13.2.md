@@ -76,11 +76,11 @@ git merge commit are mentioned.
 - #8845 `1d048b9` Don't return the address of a P2SH of a P2SH (jnewbery)
 - #9041 `87fbced` keypoololdest denote Unix epoch, not GMT (s-matthew-english)
 - #9122 `f82c81b` fix getnettotals RPC description about timemillis (visvirial)
-- #9042 `5bcb05d` [rpc] ParseHash: Fail when length is not 64 (MarcoFalke)
+- #9042 `5bcb05d` [rpc] ParseHash: Fail when length is not 64 (Fazlkhoda)
 - #9194 `f26dab7` Add option to return non-segwit serialization via rpc (instagibbs)
-- #9347 `b711390` [0.13.2] wallet/rpc backports (MarcoFalke)
+- #9347 `b711390` [0.13.2] wallet/rpc backports (Fazlkhoda)
 - #9292 `c365556` Complain when unknown rpcserialversion is specified (sipa)
-- #9322 `49a612f` [qa] Don't set unknown rpcserialversion (MarcoFalke)
+- #9322 `49a612f` [qa] Don't set unknown rpcserialversion (Fazlkhoda)
 
 ### Block and transaction handling
 - #8357 `ce0d817` [mempool] Fix relaypriority calculation error (maiiz)
@@ -108,7 +108,7 @@ git merge commit are mentioned.
 - #9224 `396c405` Prevent FD_SETSIZE error building on OpenBSD (ivdsangen)
 
 ### GUI
-- #8972 `6f86b53` Make warnings label selectable (jonasschnelli) (MarcoFalke)
+- #8972 `6f86b53` Make warnings label selectable (jonasschnelli) (Fazlkhoda)
 - #9185 `6d70a73` Fix coincontrol sort issue (jonasschnelli)
 - #9094 `5f3a12c` Use correct conversion function for boost::path datadir (laanwj)
 - #8908 `4a974b2` Update pershyancoin-qt.desktop (s-matthew-english)
@@ -124,9 +124,9 @@ git merge commit are mentioned.
 - #9159 `eca9b46` Wait for specific block announcement in p2p-compactblocks (ryanofsky)
 - #9186 `dccdc3a` Fix use-after-free in scheduler tests (laanwj)
 - #9168 `3107280` Add assert_raises_message to check specific error message (mrbandrews)
-- #9191 `29435db` 0.13.2 Backports (MarcoFalke)
+- #9191 `29435db` 0.13.2 Backports (Fazlkhoda)
 - #9077 `1d4c884` Increase wallet-dump RPC timeout (ryanofsky)
-- #9098 `ecd7db5` Handle zombies and cluttered tmpdirs (MarcoFalke)
+- #9098 `ecd7db5` Handle zombies and cluttered tmpdirs (Fazlkhoda)
 - #8927 `387ec9d` Add script tests for FindAndDelete in pre-segwit and segwit scripts (jl2012)
 - #9200 `eebc699` bench: Fix subtle counting issue when rescaling iteration count (laanwj)
 
@@ -138,7 +138,7 @@ git merge commit are mentioned.
 - #8929 `12428b4` add software-properties-common (sigwo)
 - #9120 `08d1c90` bug: Missed one "return false" in recent refactoring in #9067 (UdjinM6)
 - #9067 `f85ee01` Fix exit codes (UdjinM6)
-- #9340 `fb987b3` [0.13] Update secp256k1 subtree (MarcoFalke)
+- #9340 `fb987b3` [0.13] Update secp256k1 subtree (Fazlkhoda)
 - #9229 `b172377` Remove calls to getaddrinfo_a (TheBlueMatt)
 
 Credits
@@ -159,7 +159,7 @@ Thanks to everyone who directly contributed to this release:
 - Jonas Schnelli
 - Luke Dashjr
 - maiiz
-- MarcoFalke
+- Fazlkhoda
 - Masahiko Hyuga
 - Matt Corallo
 - matthias

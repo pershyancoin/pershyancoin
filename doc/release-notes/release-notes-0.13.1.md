@@ -247,10 +247,10 @@ git merge commit are mentioned.
 - #8937 `8b66659` Define start and end time for segwit deployment (sipa)
 
 ### RPC and other APIs
-- #8581 `526d2b0` Drop misleading option in importprunedfunds (MarcoFalke)
+- #8581 `526d2b0` Drop misleading option in importprunedfunds (Fazlkhoda)
 - #8699 `a5ec248` Remove createwitnessaddress RPC command (jl2012)
-- #8780 `794b007` Deprecate getinfo (MarcoFalke)
-- #8832 `83ad563` Throw JSONRPCError when utxo set can not be read (MarcoFalke)
+- #8780 `794b007` Deprecate getinfo (Fazlkhoda)
+- #8832 `83ad563` Throw JSONRPCError when utxo set can not be read (Fazlkhoda)
 - #8884 `b987348` getblockchaininfo help: pruneheight is the lowest, not highest, block (luke-jr)
 - #8858 `3f508ed` rpc: Generate auth cookie in hex instead of base64 (laanwj)
 - #8951 `7c2bf4b` RPC/Mining: getblocktemplate: Update and fix formatting of help (luke-jr)
@@ -303,17 +303,17 @@ git merge commit are mentioned.
 - #8765 `6288659` Remove "unused" ThreadFlushWalletDB from removeprunedfunds (jonasschnelli)
 
 ### Tests and QA
-- #8713 `ae8c7df` create_cache: Delete temp dir when done (MarcoFalke)
-- #8716 `e34374e` Check legacy wallet as well (MarcoFalke)
-- #8750 `d6ebe13` Refactor RPCTestHandler to prevent TimeoutExpired (MarcoFalke)
+- #8713 `ae8c7df` create_cache: Delete temp dir when done (Fazlkhoda)
+- #8716 `e34374e` Check legacy wallet as well (Fazlkhoda)
+- #8750 `d6ebe13` Refactor RPCTestHandler to prevent TimeoutExpired (Fazlkhoda)
 - #8652 `63462c2` remove root test directory for RPC tests (yurizhykin)
-- #8724 `da94272` walletbackup: Sync blocks inside the loop (MarcoFalke)
+- #8724 `da94272` walletbackup: Sync blocks inside the loop (Fazlkhoda)
 - #8400 `bea02dc` enable rpcbind_test (yurizhykin)
 - #8417 `f70be14` Add walletdump RPC test (including HD- & encryption-tests) (jonasschnelli)
 - #8419 `a7aa3cc` Enable size accounting in mining unit tests (sdaftuar)
-- #8442 `8bb1efd` Rework hd wallet dump test (MarcoFalke)
+- #8442 `8bb1efd` Rework hd wallet dump test (Fazlkhoda)
 - #8528 `3606b6b` Update p2p-segwit.py to reflect correct behavior (instagibbs)
-- #8531 `a27cdd8` abandonconflict: Use assert_equal (MarcoFalke)
+- #8531 `a27cdd8` abandonconflict: Use assert_equal (Fazlkhoda)
 - #8667 `6b07362` Fix SIGHASH_SINGLE bug in test_framework SignatureHash (jl2012)
 - #8673 `03b0196` Fix obvious assignment/equality error in test (JeremyRubin)
 - #8739 `cef633c` Fix broken sendcmpct test in p2p-compactblocks.py (sdaftuar)
@@ -321,15 +321,15 @@ git merge commit are mentioned.
 - #8803 `375437c` Ping regularly in p2p-segwit.py to keep connection alive (jl2012)
 - #8827 `9bbe66e` Split up slow RPC calls to avoid pruning test timeouts (sdaftuar)
 - #8829 `2a8bca4` Add pershyancoin-tx JSON tests (jnewbery)
-- #8834 `1dd1783` blockstore: Switch to dumb dbm (MarcoFalke)
-- #8835 `d87227d` nulldummy.py: Don't run unused code (MarcoFalke)
+- #8834 `1dd1783` blockstore: Switch to dumb dbm (Fazlkhoda)
+- #8835 `d87227d` nulldummy.py: Don't run unused code (Fazlkhoda)
 - #8836 `eb18cc1` pershyancoin-util-test.py should fail if the output file is empty (jnewbery)
 - #8839 `31ab2f8` Avoid ConnectionResetErrors during RPC tests (laanwj)
 - #8840 `cbc3fe5` Explicitly set encoding to utf8 when opening text files (laanwj)
 - #8841 `3e4abb5` Fix nulldummy test (jl2012)
 - #8854 `624a007` Fix race condition in p2p-compactblocks test (sdaftuar)
-- #8857 `1f60d45` mininode: Only allow named args in wait_until (MarcoFalke)
-- #8860 `0bee740` util: Move wait_pershyancoinds() into stop_nodes() (MarcoFalke)
+- #8857 `1f60d45` mininode: Only allow named args in wait_until (Fazlkhoda)
+- #8860 `0bee740` util: Move wait_pershyancoinds() into stop_nodes() (Fazlkhoda)
 - #8882 `b73f065` Fix race conditions in p2p-compactblocks.py and sendheaders.py (sdaftuar)
 - #8904 `cc6f551` Fix compact block shortids for a test case (dagurval)
 
@@ -339,12 +339,12 @@ git merge commit are mentioned.
 - #8512 `156e305` Corrected JSON typo on setban of net.cpp (sevastos)
 - #8683 `8a7d7ff` Fix incorrect file name pershyancoin.qrc  (pershyancoinsSG)
 - #8891 `5e0dd9e` Update bips.md for Segregated Witness (fanquake)
-- #8545 `863ae74` Update git-subtree-check.sh README (MarcoFalke)
-- #8607 `486650a` Fix doxygen off-by-one comments, fix typos (MarcoFalke)
+- #8545 `863ae74` Update git-subtree-check.sh README (Fazlkhoda)
+- #8607 `486650a` Fix doxygen off-by-one comments, fix typos (Fazlkhoda)
 - #8560 `c493f43` Fix two VarInt examples in serialize.h (cbarcenas)
 - #8737 `084cae9` UndoReadFromDisk works on undo files (rev), not on block files (paveljanik)
 - #8625 `0a35573` Clarify statement about parallel jobs in rpc-tests.py (isle2983)
-- #8624 `0e6d753` build: Mention curl (MarcoFalke)
+- #8624 `0e6d753` build: Mention curl (Fazlkhoda)
 - #8604 `b09e13c` build,doc: Update for 0.13.0+ and OpenBSD 5.9 (laanwj)
 - #8939 `06d15fb` Update implemented bips for 0.13.1 (sipa)
 
@@ -355,8 +355,8 @@ git merge commit are mentioned.
 - #8817 `bcf3806` update pershyancoin-tx to output witness data (jnewbery)
 - #8513 `4e5fc31` Fix a type error that would not compile on OSX. (JeremyRubin)
 - #8392 `30eac2d` Fix several node initialization issues (sipa)
-- #8548 `305d8ac` Use `__func__` to get function name for output printing (MarcoFalke)
-- #8291 `a987431` [util] CopyrightHolders: Check for untranslated substitution (MarcoFalke)
+- #8548 `305d8ac` Use `__func__` to get function name for output printing (Fazlkhoda)
+- #8291 `a987431` [util] CopyrightHolders: Check for untranslated substitution (Fazlkhoda)
 
 Credits
 =======
@@ -393,7 +393,7 @@ Thanks to everyone who directly contributed to this release:
 - Kaz Wesley
 - leijurv
 - Luke Dashjr
-- MarcoFalke
+- Fazlkhoda
 - Marty Jones
 - Matt Corallo
 - Micha

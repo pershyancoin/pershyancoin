@@ -178,7 +178,7 @@ Low-level RPC changes
 
 ### Build system
 - #11440 `b6c0209` Fix validationinterface build on super old boost/clang (TheBlueMatt)
-- #11530 `265bb21` Add share/rpcuser to dist. source code archive (MarcoFalke)
+- #11530 `265bb21` Add share/rpcuser to dist. source code archive (Fazlkhoda)
 
 ### GUI
 - #11334 `19d63e8` Remove custom fee radio group and remove nCustomFeeRadio setting (achow101)
@@ -187,7 +187,7 @@ Low-level RPC changes
 - #11338 `6a62c74` Backup former GUI settings on `-resetguisettings` (laanwj)
 - #11335 `8d13b42` Replace save|restoreWindowGeometry with Qt functions (MeshCollider)
 - #11237 `2e31b1d` Fixing division by zero in time remaining (MeshCollider)
-- #11247 `47c02a8` Use IsMine to validate custom change address (MarcoFalke)
+- #11247 `47c02a8` Use IsMine to validate custom change address (Fazlkhoda)
 
 ### Wallet
 - #11017 `9e8aae3` Close DB on error (kallewoof)
@@ -202,15 +202,15 @@ Low-level RPC changes
 - #11399 `a825d4a` Fix bip68-sequence rpc test (jl2012)
 - #11150 `847c75e` Add getmininginfo test (mess110)
 - #11407 `806c78f` add functional test for mempoolreplacement command line arg (instagibbs)
-- #11433 `e169349` Restore pershyancoin-util-test py2 compatibility (MarcoFalke)
-- #11308 `2e1ac70` zapwallettxes: Wait up to 3s for mempool reload (MarcoFalke)
+- #11433 `e169349` Restore pershyancoin-util-test py2 compatibility (Fazlkhoda)
+- #11308 `2e1ac70` zapwallettxes: Wait up to 3s for mempool reload (Fazlkhoda)
 - #10798 `716066d` test pershyancoin-cli (jnewbery)
-- #11443 `019c492` Allow "make cov" out-of-tree; Fix rpc mapping check (MarcoFalke)
-- #11445 `51bad91` 0.15.1 Backports (MarcoFalke)
+- #11443 `019c492` Allow "make cov" out-of-tree; Fix rpc mapping check (Fazlkhoda)
+- #11445 `51bad91` 0.15.1 Backports (Fazlkhoda)
 - #11319 `2f0b30a` Fix error introduced into p2p-segwit.py, and prevent future similar errors (sdaftuar)
 - #10552 `e4605d9` Tests for zmqpubrawtx and zmqpubrawblock (achow101)
-- #11067 `eeb24a3` TestNode: Add wait_until_stopped helper method (MarcoFalke)
-- #11068 `5398f20` Move wait_until to util (MarcoFalke)
+- #11067 `eeb24a3` TestNode: Add wait_until_stopped helper method (Fazlkhoda)
+- #11068 `5398f20` Move wait_until to util (Fazlkhoda)
 - #11125 `812c870` Add pershyancoin-cli -stdin and -stdinrpcpass functional tests (promag)
 - #11077 `1d80d1e` fix timeout issues from TestNode (jnewbery)
 - #11078 `f1ced0d` Make p2p-leaktests.py more robust (jnewbery)
@@ -227,7 +227,7 @@ Low-level RPC changes
 - #11121 `bb5e7cb` TestNode tidyups (jnewbery)
 - #11521 `ca0f3f7` travis: move back to the minimal image (theuni)
 - #11538 `adbc9d1` Fix race condition failures in replace-by-fee.py, sendheaders.py (sdaftuar)
-- #11472 `4108879` Make tmpdir option an absolute path, misc cleanup (MarcoFalke)
+- #11472 `4108879` Make tmpdir option an absolute path, misc cleanup (Fazlkhoda)
 - #10853 `5b728c8` Fix RPC failure testing (again) (jnewbery)
 - #11310 `b6468d3` Test listwallets RPC (mess110)
 
@@ -262,7 +262,7 @@ Thanks to everyone who directly contributed to this release:
 - Jorge Timón
 - Karl-Johan Alm
 - Lucas Betschart
-- MarcoFalke
+- Fazlkhoda
 - Matt Corallo
 - Paul Berg
 - Pedro Branco

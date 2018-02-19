@@ -164,7 +164,7 @@ git merge commit are mentioned.
 
 ### Build system
 - #7487 `00d57b4` Workaround Travis-side CI issues (luke-jr)
-- #7606 `a10da9a` No need to set -L and --location for curl (MarcoFalke)
+- #7606 `a10da9a` No need to set -L and --location for curl (Fazlkhoda)
 - #7614 `ca8f160` Add curl to packages (now needed for depends) (luke-jr)
 - #7776 `a784675` Remove unnecessary executables from gitian release (laanwj)
 
@@ -172,7 +172,7 @@ git merge commit are mentioned.
 - #7715 `19866c1` Fix calculation of balances and available coins. (morcos)
 
 ### Miscellaneous
-- #7617 `f04f4fd` Fix markdown syntax and line terminate LogPrint (MarcoFalke)
+- #7617 `f04f4fd` Fix markdown syntax and line terminate LogPrint (Fazlkhoda)
 - #7747 `4d035bc` added depends cross compile info (accraze)
 - #7741 `a0cea89` Mark p2p alert system as deprecated (pscdrak)
 - #7780 `c5f94f6` Disable bad-chain alert (pscdrak)
@@ -187,7 +187,7 @@ Thanks to everyone who directly contributed to this release:
 - PscDrak
 - Jonas Schnelli
 - Luke Dashjr
-- MarcoFalke
+- Fazlkhoda
 - Mark Friedenbach
 - NicolasDorier
 - Pieter Wuille

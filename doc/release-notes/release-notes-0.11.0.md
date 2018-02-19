@@ -465,7 +465,7 @@ Thanks to everyone who directly contributed to this release:
 - Luca Venturini
 - Luke Dashjr
 - Manuel Araoz
-- MarcoFalke
+- Fazlkhoda
 - Matt Bogosian
 - Matt Corallo
 - Micha

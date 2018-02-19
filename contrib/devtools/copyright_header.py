@@ -92,7 +92,7 @@ EXPECTED_HOLDER_NAMES = [
     "BitPay Inc\.\n",
     "BitPay, Inc\.\n",
     "University of Illinois at Urbana-Champaign\.\n",
-    "MarcoFalke\n",
+    "Fazlkhoda\n",
     "Pieter Wuille\n",
     "Pieter Wuille +\*\n",
     "Pieter Wuille, Gregory Maxwell +\*\n",

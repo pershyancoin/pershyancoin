@@ -158,7 +158,7 @@ Thanks to everyone who directly contributed to this release:
 - Esteban Ordano
 - Gregory Maxwell
 - Luke Dashjr
-- MarcoFalke
+- Fazlkhoda
 - Matt Corallo
 - Micha
 - Mitchell Cash
